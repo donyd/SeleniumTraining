@@ -1,0 +1,24 @@
+Syntax for Identifying elements :
+
+parent child concept:
+
+//parenttagname[@attribute='value']//childtag[@attribute='value']
+
+//h4//a[@href='/personal-loan-interest-rate.php']
+
+//h4//a[@href='/home-loans-interest-rates.php']
+
+//a[@href='/b/ref=popdepts_egg?_encoding=UTF8&node=7258624011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=G0RNGY53PRPRVDFJX1EW&pf_rd_t=36701&pf_rd_p=d2c4fbad-eb06-4cce-9b22-fc0d6629fdb9&pf_rd_i=desktop']
+
+
+
+
+contains aproach:
+
+//tagname[contains(@attribute,'value')]
+
+//a[contains(@href,'/b/ref=popdepts_egg?')]
+
+//tagname[contains(text(),'value')]
+
+//a[contains(text(),'Conditions')]
